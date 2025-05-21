@@ -21,8 +21,7 @@
         <form method="post">
             <label for="jarak">Jarak Tempuh (km):</label>
             <input type="number" step="1" name="jarak" id="jarak" max="40" value="<?php echo isset($_POST['jarak']) ? htmlspecialchars($_POST['jarak']) : ''; ?>">
-
-            <label>
+            <label>A
                 <input type="checkbox" name="jasa" value="1" <?php if (isset($_POST['jasa'])) echo 'checked'; ?>> Tambahkan Biaya Jasa Pelatihan (Rp180.000)
             </label>
 
